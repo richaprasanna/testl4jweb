@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Learn4Justice</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="script.js" defer></script>
+
+  </head>
+  
+  <body style = "overflow: auto">
+    <header>
+      <div id = "heading"> 
+        <!-- Implementing the logo for Learn4Justice on the left -->
+        <img width=200px height=100px src="assets/home/logo.jpg" alt="The learn4justice logo with 2 multicolored hands and a lightbulb.">
+        <h1>Learn4Justice</h1>
+        <!-- Navigational Bar -->
+        <nav>
+          <ul>
+            <li><a href = "#">Home</a></li>
+            <li><a href = "programs.html">Programs</a></li>
+            <li><a href = "ourstory.html">Our Story + Team</a></li>
+            <li><a href = "opportunities.html">Opportunities</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Link to Executive Team Applications for others to apply to the team-->
+      <p class = "spacing-p roboto-light">Executive team applications for Learn4Justice are open! You can apply <a href = "https://forms.gle/CW9SGpkNoikHVs74A">here</a></p>
+    </header>
+    <main>
+      <!-- Home Page -->
+      <div id = "home">
+        <section>
+          <h3>Welcome to our page</h3>
+          <p class = "spacing-p">We're glad to have you aboard! Our mission is to educate youth and teach them justice oriented skills that will guide them in their lives. We believe in the intersection between fun, learning, and activism. Browse through our page to learn more about our mission, story, programs, ways to contact us, and ways for YOU to join the Learn4Justice team and bring it to your school. </p>
+          <h2>Who we are</h2>
+          <img id = "kids-image" src = assets/kids.jpg width = 600px height=400px alt = "A diverse group of children smiling in a classroom taught by Learn4Justice members">
+          <p class = "spacing-p">We're an organization with a passion for teaching others and lighting up the classroom with our unique and social justice related content. Our curriculum allows children to learn more about social justice yet create projects that are more personal to them with issues that they THEMSELVES are truly passionate about. We aim to not just inspire passion for change, but also have fun in the classroom. Our instructors are able to relate to our participants because we are YOUTH ourselves and the program is made for YOUTH by YOUTH. </p>
+        </section>
+        <!-- Fact generator used to generate quotes about education and the future of education especially in both the STEM and Humanities to support our organization's mission. The sources for the 5 selected quotes are Human Restoration Project and STEM Teaching Tools. -->
+        <section>
+          <h3>Facts</h3>
+          <button id = "facts">Fact Generator</button>
+          <div style = "margin-top: 30px;font-size: 20px" id = "text"></div>
+          <p class = "spacing-p" id = "sources-button">Sources for fact generator from <a href = "https://www.humanrestorationproject.org/writing/the-silent-crisis-humanities-pedagogy-and-neoliberalism">Human Restoration Project</a> and <a href = "https://stemteachingtools.org/brief/71">Stem Teaching Tools</a></p>
+        </section>
+        <!-- A form that allows the user to input contact information about their full name, email, phone number, and a message for Learn4Justice. This is for people interested in being potential contacts with Learn4Justice and they would like to receive a typed out message, which they could type to their email to email the official learn4justice email account.-->
+        <section id="contact-container">
+          <h3>Contact Us</h3>
+          <p>Our email is learn4justice@gmail.com</p>
+          <p>Our Instagram is @learn4justice</p>
+          <form id="info" method="POST">
+            <input class = "form-margin" id = "fullname" name="FullName" placeholder = "Enter your full name">
+            <input class = "form-margin" id = "email" name="Email" placeholder = "Enter your email">
+            <input class = "form-margin" id = "phone-number" name="PhoneNumber" placeholder = "Enter your phone number">
+            <textarea class = "form-margin" rows="10" cols="25" id = "message" placeholder="Leave a message"></textarea>
+          <button class = "form-margin" id = "contact-button">Click here after you've finished typing your contact info, name, and message!</button>
+          </form>
+          <p id = "contact"></p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>&#169 2024 Learn4Justice</p>
+    </footer>
+        
+  </body>
+</html>

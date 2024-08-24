@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Learn4Justice</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- link the webpage's JavaScript file -->
+    <script src="script.js" defer></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div id = "heading"> 
+        <img src = assets/home/logo.jpg alt = "The learn4justice logo with 2 multicolored hands and a lightbulb." width = 200px height = 100px>
+        <h1>Learn4Justice</h1>
+        <nav>
+          <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "programs.html">Programs</a></li>
+            <li><a href = "#">Our Story + Team</a></li>
+            <li><a href = "#">Opportunities</a></li>
+            <li><a href = "#">FAQ</a></li>
+            <li><a href = "#">Contact Info</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p>Executive team applications for Learn4Justice are open! You can apply <a href = "https://forms.gle/CW9SGpkNoikHVs74A">here</a></p>
+    </header>
+    <footer>
+      <p>&#169 2024 Learn4Justice</p>
+    </footer>
+  </body>
+</html>
